@@ -1,15 +1,28 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Lufuno message"/>
+
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col md-8">
+      <h2>
+        <router-link to="/index">Subscriptions</router-link>
+      </h2>
+
+      <router-link to="/create" class="bt btn-sm btn-primary">Add subscription</router-link>
+
+    </div>
+
+  </div>
+
+</div>
+
+
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
   }
 }
 </script>
