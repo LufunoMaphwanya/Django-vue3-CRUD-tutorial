@@ -45,7 +45,9 @@ export default function useSubscriptions() {
     }
 
     const destroySubscription = async (id) => {
-        await axios.delete(`${base_uri}/api/subscriptions/` + id)
+        await axios.delete(`${base_uri}/api/subscriptions/` + id);
+        await router.push({name: 'index'})
+
     }
 
 

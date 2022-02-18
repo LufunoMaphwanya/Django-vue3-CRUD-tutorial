@@ -22,7 +22,7 @@
 
                     </td>
                     <td>
-                        <a href="#">Delete</a>
+                        <a href="#" @click="deleteSubscription">Delete</a>
 
                     </td>
 
@@ -43,13 +43,18 @@ export default {
        }
    },
     setup(props) {
-        const { subscription, getSubscription } = useSubscriptions()
+        const { subscription, getSubscription, destroySubscription } = useSubscriptions()
 
         onMounted(() => getSubscription(props.id));
 
+        const deleteSubscription = async() => {
+            await destroySubscription(props.id);
+        };
+
         return {
             subscription,
-            props
+            props,
+            deleteSubscription
         }
     }
 }
