@@ -4,10 +4,12 @@
   <div class="row justify-content-center">
     <div class="col md-8">
       <h2>
-        <router-link to="/index">Subscriptions</router-link>
+        <router-link to="/">Subscriptions</router-link>
       </h2>
 
       <router-link to="/create" class="bt btn-sm btn-primary">Add subscription</router-link>
+
+      <router-view />
 
     </div>
 
