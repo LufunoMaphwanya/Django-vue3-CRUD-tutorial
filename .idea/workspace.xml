@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="cc030575-6129-47fc-9262-d2a007166e00" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/subscription_api/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/subscription_api/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/subscription_api/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/subscription_api/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/subscriptions/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/subscriptions/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/subscriptions/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/subscriptions/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,8 +48,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/subscription_api/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="40" column="16" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
+            <state relative-caret-position="723">
+              <caret line="117" column="28" selection-start-line="117" selection-start-column="28" selection-end-line="117" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -239,8 +236,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/subscription_api/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="40" column="16" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
+        <state relative-caret-position="723">
+          <caret line="117" column="28" selection-start-line="117" selection-start-column="28" selection-end-line="117" selection-end-column="28" />
         </state>
       </provider>
     </entry>
