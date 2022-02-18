@@ -35,7 +35,7 @@ export default function useSubscriptions() {
     const updateSubscription = async (id) => {
         errors.value = ''
         try {
-            await axios.put(`${base_uri}/api/subscriptions/` + id, subscription.value)
+            await axios.put(`${base_uri}/api/subscriptions/${id}/`, {...subscription.value})
             await router.push({name: 'index'})
         } catch (e) {
             if (e.response.status === 422) {

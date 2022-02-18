@@ -6,7 +6,8 @@
                 <th scope="col">Name</th>
                 <th scope="col">Description</th>
                 <th scope="col">Amount</th>
-                <th scope="col">#</th>
+                <th scope="col">edit</th>
+                <th scope="col">delete</th>
                 </tr>
             </thead>
             <tbody>
@@ -14,6 +15,17 @@
                     <td>{{subscription.name}}</td>
                     <td>{{subscription.description}}</td>
                     <td>{{ subscription.currency}}{{ subscription.amount}}</td>
+                    <td>
+                        <router-link :to="{ name: 'edit' , params: { id: props.id }}">
+                            Edit
+                        </router-link>
+
+                    </td>
+                    <td>
+                        <a href="#">Delete</a>
+
+                    </td>
+
                 </tr>
             </tbody>
             </table>
@@ -36,7 +48,8 @@ export default {
         onMounted(() => getSubscription(props.id));
 
         return {
-            subscription
+            subscription,
+            props
         }
     }
 }
